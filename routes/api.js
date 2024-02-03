@@ -1,4 +1,5 @@
 const notes = require('express').Router();
+const fs = require('fs');
 const { readFromFile, readAndAppend } = require('../helpers/reading');
 const uuid = require('../helpers/uuid');
 
@@ -26,10 +27,24 @@ notes.post('/notes', (req, res) => {
 
 
 
-notes.delete('/notes/:id', (req, res)=> {
-console.log(req.params.id);
+// notes.delete('/notes/:id', (req, res)=> {
 
-})
+// })
+
+notes.delete('/notes/:id', (req, res) => {
+  const noteIdToDelete = req.params.id;
+  readFromFile('./db/db.json').then((data) => {
+    let allNotes = JSON.parse(data);
+
+    // Filter the notes using array filter method
+    const filteredNotes = allNotes.filter((note) => note.id !== noteIdToDelete);
+
+    // Write the filtered notes back to the file
+    fs.writeFileSync('./db/db.json', JSON.stringify(filteredNotes));
+
+    res.json(`Note with ID ${noteIdToDelete} deleted successfully`);
+  });
+});
 
 
 module.exports = notes
