@@ -3,6 +3,8 @@
 ## Description
 The Note Taker application is a simple and intuitive tool for taking and managing notes. It provides a clean and user-friendly interface, allowing users to easily create, save, and edit their notes.
 
+To view project [Note Taking](https://chappzach24.github.io/Weather-ServerSideAPI)
+
 ![alt text](https://github.com/chappzach24/NoteTaking/blob/main/photos/Screenshot%202024-02-03%20182417.png)
 ![alt text](https://github.com/chappzach24/NoteTaking/blob/main/photos/Screenshot%202024-02-03%20182352.png)
 
@@ -12,7 +14,7 @@ The Note Taker application is a simple and intuitive tool for taking and managin
 1. Clone the repository:
 
     ```bash
-    git clone git@github.com:chappzach24/LogoMaker-SVG.git
+    git clone git@github.com:chappzach24/NoteTaking.git
     ```
 
 2. Navigate to the project directory:
