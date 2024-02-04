@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "title": "Make readme",
+        "text": "Make a readme for this project!",
+        "id": "b966"
+    },
+    {
+        "title": "Food for dinner ",
+        "text": "Get food from store for dinner.",
+        "id": "70e6"
+    },
+    {
+        "title": "Clean House",
+        "text": "Clean house before wife gets home",
+        "id": "13c2"
+    }
+]
