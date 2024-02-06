@@ -1,9 +1,9 @@
 # Note Taking
 
 ## Description
-The Note Taker application is a simple and intuitive tool for taking and managing notes. It provides a clean and user-friendly interface, allowing users to easily create, save, and edit their notes.
+The Note Taker application is a simple and intuitive tool for taking and managing notes. It provides a clean and user-friendly interface, allowing users to easily create and save their notes.
 
-To view project [Note Taking](https://chappzach24.github.io/Weather-ServerSideAPI)
+To view project [Note Taking](https://chappzach24.github.io/NoteTaking/)
 
 ![alt text](https://github.com/chappzach24/NoteTaking/blob/main/photos/Screenshot%202024-02-03%20182417.png)
 ![alt text](https://github.com/chappzach24/NoteTaking/blob/main/photos/Screenshot%202024-02-03%20182352.png)
