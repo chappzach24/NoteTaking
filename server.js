@@ -2,7 +2,7 @@ const express = require("express");
 const api = require('./routes/api.js');
 const app = express();
 const path = require('path')
-const PORT = process.env.port || 3001;
+const PORT = process.env.port || 8080;
 //const uuid = require('uuid');
 
 app.use(express.json());
